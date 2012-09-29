@@ -1,0 +1,86 @@
+-- Dillon
+Javascript 1996 -
+	Came to pass in 1996
+
+ECMAScript - standardized javascript
+
+repple - read evaluate print loop
+
+functions = first class citizen
+
+runs on Chrome KS runtime (aka v8)
+
+Non-Blocking (Asynchronous) - Reactor model/pattern
+
+Single threaded server-
+
+I/O model - they are I/O driven (non-blocking main thread) Very good at I/O
+
+Shitty at CPU intensive texts (don't create a fibonacci server)
+
+Debugging
+	console.log
+	dtrace
+
+Modules - Node package manager (NPM) npmjs.org
+
+asynchronous flow control - 
+
+CommonJS provides - explicit dependencies
+
+My third server - Express.js
+
+jade-lang.com
+node jade - package 
+
+
+Exposing custom functionality to node js
+
+Require files with Common Js.  // require js models/javascript  
+
+	var power = require('/powerjs');
+
+	exports.squareNumber = function(i){
+		return i * i;
+	}
+
+	exports.SquareObject = 
+
+// syntax highlighting with sublime text, cloud 9 
+
+Grouping of modules / libraries
+
+
+Stream - Flow control of the application in Node.js
+	Readstream
+	Writestream
+
+Graphics magic/ Image Magic
+
+Node aync - flow control
+
+res.write // can only take in strings  // be careful with iterations.
+
+The Guts of Node.js
+request
+async
+gm graphics image
+postgres
+express
+mocha
+ejs
+
+
+
+Core over node
+EventEmitter - events into objects
+process.nextTick() // wtf
+everything in node js is an event
+
+everything has events bound to it.
+
+flatiron, meteor, yeoman (polaris), grunt (comman tasks etc) smashing node book,socket.io
+
+
+Cloud9 idea, architect
+
